@@ -1,0 +1,689 @@
+
+============================================================
+[1/36] no BN | adam | lr=0.01 | hidden=64
+============================================================
+Epoch   1/10 | Train loss: 0.4301  acc: 0.8713 | Val   loss: 0.2301  acc: 0.9329 ✓
+Epoch   2/10 | Train loss: 0.1782  acc: 0.9451 | Val   loss: 0.2053  acc: 0.9400 ✓
+Epoch   3/10 | Train loss: 0.1378  acc: 0.9570 | Val   loss: 0.2235  acc: 0.9376
+Epoch   4/10 | Train loss: 0.1368  acc: 0.9566 | Val   loss: 0.2503  acc: 0.9424
+Epoch   5/10 | Train loss: 0.1280  acc: 0.9618 | Val   loss: 0.2467  acc: 0.9416
+Epoch   6/10 | Train loss: 0.1293  acc: 0.9630 | Val   loss: 0.2899  acc: 0.9314
+Epoch   7/10 | Train loss: 0.1095  acc: 0.9649 | Val   loss: 0.2238  acc: 0.9541
+Epoch   8/10 | Train loss: 0.1240  acc: 0.9628 | Val   loss: 0.2806  acc: 0.9408
+Epoch   9/10 | Train loss: 0.1067  acc: 0.9663 | Val   loss: 0.2469  acc: 0.9533
+Epoch  10/10 | Train loss: 0.1065  acc: 0.9686 | Val   loss: 0.2790  acc: 0.9478
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.2053)
+  → test loss: 0.1857 | best val loss: 0.2053
+
+============================================================
+[2/36] BN | adam | lr=0.01 | hidden=64
+============================================================
+Epoch   1/10 | Train loss: 0.2526  acc: 0.9226 | Val   loss: 0.1286  acc: 0.9600 ✓
+Epoch   2/10 | Train loss: 0.0950  acc: 0.9703 | Val   loss: 0.1058  acc: 0.9686 ✓
+Epoch   3/10 | Train loss: 0.0688  acc: 0.9789 | Val   loss: 0.1080  acc: 0.9667
+Epoch   4/10 | Train loss: 0.0562  acc: 0.9825 | Val   loss: 0.0883  acc: 0.9761 ✓
+Epoch   5/10 | Train loss: 0.0544  acc: 0.9820 | Val   loss: 0.1234  acc: 0.9584
+Epoch   6/10 | Train loss: 0.0552  acc: 0.9817 | Val   loss: 0.0923  acc: 0.9725
+Epoch   7/10 | Train loss: 0.0442  acc: 0.9840 | Val   loss: 0.1025  acc: 0.9737
+Epoch   8/10 | Train loss: 0.0572  acc: 0.9803 | Val   loss: 0.0881  acc: 0.9749 ✓
+Epoch   9/10 | Train loss: 0.0478  acc: 0.9841 | Val   loss: 0.0891  acc: 0.9761
+Epoch  10/10 | Train loss: 0.0448  acc: 0.9853 | Val   loss: 0.1274  acc: 0.9631
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.0881)
+  → test loss: 0.0731 | best val loss: 0.0881
+
+============================================================
+[3/36] no BN | adam | lr=0.01 | hidden=128
+============================================================
+Epoch   1/10 | Train loss: 0.3721  acc: 0.8954 | Val   loss: 0.2143  acc: 0.9302 ✓
+Epoch   2/10 | Train loss: 0.1572  acc: 0.9507 | Val   loss: 0.2551  acc: 0.9235
+Epoch   3/10 | Train loss: 0.1211  acc: 0.9642 | Val   loss: 0.1381  acc: 0.9671 ✓
+Epoch   4/10 | Train loss: 0.1261  acc: 0.9625 | Val   loss: 0.1859  acc: 0.9561
+Epoch   5/10 | Train loss: 0.1414  acc: 0.9603 | Val   loss: 0.2757  acc: 0.9533
+Epoch   6/10 | Train loss: 0.1421  acc: 0.9610 | Val   loss: 0.2140  acc: 0.9553
+Epoch   7/10 | Train loss: 0.1190  acc: 0.9681 | Val   loss: 0.2527  acc: 0.9486
+Epoch   8/10 | Train loss: 0.1360  acc: 0.9633 | Val   loss: 0.2812  acc: 0.9553
+Epoch   9/10 | Train loss: 0.1313  acc: 0.9675 | Val   loss: 0.2353  acc: 0.9529
+Epoch  10/10 | Train loss: 0.1294  acc: 0.9667 | Val   loss: 0.2212  acc: 0.9635
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.1381)
+  → test loss: 0.1269 | best val loss: 0.1381
+
+============================================================
+[4/36] BN | adam | lr=0.01 | hidden=128
+============================================================
+Epoch   1/10 | Train loss: 0.2073  acc: 0.9363 | Val   loss: 0.1062  acc: 0.9682 ✓
+Epoch   2/10 | Train loss: 0.0893  acc: 0.9716 | Val   loss: 0.1118  acc: 0.9659
+Epoch   3/10 | Train loss: 0.0663  acc: 0.9783 | Val   loss: 0.1350  acc: 0.9596
+Epoch   4/10 | Train loss: 0.0611  acc: 0.9805 | Val   loss: 0.1110  acc: 0.9686
+Epoch   5/10 | Train loss: 0.0578  acc: 0.9815 | Val   loss: 0.0903  acc: 0.9753 ✓
+Epoch   6/10 | Train loss: 0.0536  acc: 0.9824 | Val   loss: 0.1053  acc: 0.9686
+Epoch   7/10 | Train loss: 0.0537  acc: 0.9824 | Val   loss: 0.1263  acc: 0.9627
+Epoch   8/10 | Train loss: 0.0592  acc: 0.9803 | Val   loss: 0.0925  acc: 0.9710
+Epoch   9/10 | Train loss: 0.0527  acc: 0.9833 | Val   loss: 0.1021  acc: 0.9718
+Epoch  10/10 | Train loss: 0.0472  acc: 0.9845 | Val   loss: 0.1087  acc: 0.9643
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.0903)
+  → test loss: 0.0744 | best val loss: 0.0903
+
+============================================================
+[5/36] no BN | adam | lr=0.01 | hidden=256
+============================================================
+Epoch   1/10 | Train loss: 0.4922  acc: 0.8949 | Val   loss: 0.1797  acc: 0.9525 ✓
+Epoch   2/10 | Train loss: 0.1307  acc: 0.9583 | Val   loss: 0.1686  acc: 0.9580 ✓
+Epoch   3/10 | Train loss: 0.1289  acc: 0.9606 | Val   loss: 0.1624  acc: 0.9600 ✓
+Epoch   4/10 | Train loss: 0.1130  acc: 0.9656 | Val   loss: 0.2110  acc: 0.9545
+Epoch   5/10 | Train loss: 0.1183  acc: 0.9663 | Val   loss: 0.2637  acc: 0.9416
+Epoch   6/10 | Train loss: 0.1148  acc: 0.9681 | Val   loss: 0.2199  acc: 0.9506
+Epoch   7/10 | Train loss: 0.1465  acc: 0.9615 | Val   loss: 0.2885  acc: 0.9412
+Epoch   8/10 | Train loss: 0.1288  acc: 0.9666 | Val   loss: 0.2458  acc: 0.9537
+Epoch   9/10 | Train loss: 0.1216  acc: 0.9689 | Val   loss: 0.2344  acc: 0.9573
+Epoch  10/10 | Train loss: 0.1593  acc: 0.9626 | Val   loss: 0.3463  acc: 0.9424
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.1624)
+  → test loss: 0.1368 | best val loss: 0.1624
+
+============================================================
+[6/36] BN | adam | lr=0.01 | hidden=256
+============================================================
+Epoch   1/10 | Train loss: 0.2072  acc: 0.9346 | Val   loss: 0.1335  acc: 0.9600 ✓
+Epoch   2/10 | Train loss: 0.0903  acc: 0.9702 | Val   loss: 0.1110  acc: 0.9663 ✓
+Epoch   3/10 | Train loss: 0.0764  acc: 0.9758 | Val   loss: 0.1241  acc: 0.9600
+Epoch   4/10 | Train loss: 0.0700  acc: 0.9766 | Val   loss: 0.0854  acc: 0.9788 ✓
+Epoch   5/10 | Train loss: 0.0599  acc: 0.9792 | Val   loss: 0.1179  acc: 0.9643
+Epoch   6/10 | Train loss: 0.0662  acc: 0.9783 | Val   loss: 0.0892  acc: 0.9741
+Epoch   7/10 | Train loss: 0.0616  acc: 0.9792 | Val   loss: 0.1095  acc: 0.9722
+Epoch   8/10 | Train loss: 0.0682  acc: 0.9767 | Val   loss: 0.0768  acc: 0.9820 ✓
+Epoch   9/10 | Train loss: 0.0555  acc: 0.9817 | Val   loss: 0.1037  acc: 0.9690
+Epoch  10/10 | Train loss: 0.0624  acc: 0.9794 | Val   loss: 0.1211  acc: 0.9659
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.0768)
+  → test loss: 0.0701 | best val loss: 0.0768
+
+============================================================
+[7/36] no BN | adam | lr=0.001 | hidden=64
+============================================================
+Epoch   1/10 | Train loss: 0.3623  acc: 0.8866 | Val   loss: 0.1785  acc: 0.9514 ✓
+Epoch   2/10 | Train loss: 0.1210  acc: 0.9635 | Val   loss: 0.1674  acc: 0.9471 ✓
+Epoch   3/10 | Train loss: 0.0787  acc: 0.9775 | Val   loss: 0.1146  acc: 0.9694 ✓
+Epoch   4/10 | Train loss: 0.0526  acc: 0.9863 | Val   loss: 0.0954  acc: 0.9753 ✓
+Epoch   5/10 | Train loss: 0.0401  acc: 0.9892 | Val   loss: 0.1024  acc: 0.9686
+Epoch   6/10 | Train loss: 0.0349  acc: 0.9904 | Val   loss: 0.0933  acc: 0.9745 ✓
+Epoch   7/10 | Train loss: 0.0213  acc: 0.9956 | Val   loss: 0.0855  acc: 0.9753 ✓
+Epoch   8/10 | Train loss: 0.0174  acc: 0.9965 | Val   loss: 0.0983  acc: 0.9710
+Epoch   9/10 | Train loss: 0.0141  acc: 0.9975 | Val   loss: 0.0893  acc: 0.9761
+Epoch  10/10 | Train loss: 0.0099  acc: 0.9987 | Val   loss: 0.0784  acc: 0.9792 ✓
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.0784)
+  → test loss: 0.0699 | best val loss: 0.0784
+
+============================================================
+[8/36] BN | adam | lr=0.001 | hidden=64
+============================================================
+Epoch   1/10 | Train loss: 0.4935  acc: 0.8770 | Val   loss: 0.2246  acc: 0.9478 ✓
+Epoch   2/10 | Train loss: 0.1795  acc: 0.9584 | Val   loss: 0.1529  acc: 0.9635 ✓
+Epoch   3/10 | Train loss: 0.1210  acc: 0.9739 | Val   loss: 0.1257  acc: 0.9682 ✓
+Epoch   4/10 | Train loss: 0.0872  acc: 0.9828 | Val   loss: 0.1064  acc: 0.9737 ✓
+Epoch   5/10 | Train loss: 0.0705  acc: 0.9839 | Val   loss: 0.0993  acc: 0.9737 ✓
+Epoch   6/10 | Train loss: 0.0546  acc: 0.9902 | Val   loss: 0.0906  acc: 0.9741 ✓
+Epoch   7/10 | Train loss: 0.0446  acc: 0.9915 | Val   loss: 0.0908  acc: 0.9769
+Epoch   8/10 | Train loss: 0.0347  acc: 0.9947 | Val   loss: 0.0868  acc: 0.9757 ✓
+Epoch   9/10 | Train loss: 0.0286  acc: 0.9957 | Val   loss: 0.0849  acc: 0.9784 ✓
+Epoch  10/10 | Train loss: 0.0256  acc: 0.9959 | Val   loss: 0.0797  acc: 0.9784 ✓
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.0797)
+  → test loss: 0.0725 | best val loss: 0.0797
+
+============================================================
+[9/36] no BN | adam | lr=0.001 | hidden=128
+============================================================
+Epoch   1/10 | Train loss: 0.2943  acc: 0.9053 | Val   loss: 0.1685  acc: 0.9529 ✓
+Epoch   2/10 | Train loss: 0.1023  acc: 0.9676 | Val   loss: 0.1163  acc: 0.9671 ✓
+Epoch   3/10 | Train loss: 0.0611  acc: 0.9825 | Val   loss: 0.1163  acc: 0.9671 ✓
+Epoch   4/10 | Train loss: 0.0433  acc: 0.9869 | Val   loss: 0.0990  acc: 0.9702 ✓
+Epoch   5/10 | Train loss: 0.0282  acc: 0.9925 | Val   loss: 0.1078  acc: 0.9710
+Epoch   6/10 | Train loss: 0.0161  acc: 0.9967 | Val   loss: 0.0812  acc: 0.9804 ✓
+Epoch   7/10 | Train loss: 0.0099  acc: 0.9989 | Val   loss: 0.0786  acc: 0.9808 ✓
+Epoch   8/10 | Train loss: 0.0079  acc: 0.9987 | Val   loss: 0.0791  acc: 0.9812
+Epoch   9/10 | Train loss: 0.0059  acc: 0.9993 | Val   loss: 0.0831  acc: 0.9800
+Epoch  10/10 | Train loss: 0.0057  acc: 0.9990 | Val   loss: 0.0832  acc: 0.9773
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.0786)
+  → test loss: 0.0640 | best val loss: 0.0786
+
+============================================================
+[10/36] BN | adam | lr=0.001 | hidden=128
+============================================================
+Epoch   1/10 | Train loss: 0.3358  acc: 0.9111 | Val   loss: 0.1502  acc: 0.9682 ✓
+Epoch   2/10 | Train loss: 0.1186  acc: 0.9736 | Val   loss: 0.1123  acc: 0.9702 ✓
+Epoch   3/10 | Train loss: 0.0769  acc: 0.9841 | Val   loss: 0.0936  acc: 0.9741 ✓
+Epoch   4/10 | Train loss: 0.0538  acc: 0.9894 | Val   loss: 0.0842  acc: 0.9776 ✓
+Epoch   5/10 | Train loss: 0.0393  acc: 0.9927 | Val   loss: 0.0762  acc: 0.9776 ✓
+Epoch   6/10 | Train loss: 0.0307  acc: 0.9950 | Val   loss: 0.0659  acc: 0.9824 ✓
+Epoch   7/10 | Train loss: 0.0233  acc: 0.9967 | Val   loss: 0.0757  acc: 0.9773
+Epoch   8/10 | Train loss: 0.0193  acc: 0.9978 | Val   loss: 0.0714  acc: 0.9824
+Epoch   9/10 | Train loss: 0.0164  acc: 0.9977 | Val   loss: 0.0743  acc: 0.9816
+Epoch  10/10 | Train loss: 0.0137  acc: 0.9979 | Val   loss: 0.0641  acc: 0.9835 ✓
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.0641)
+  → test loss: 0.0579 | best val loss: 0.0641
+
+============================================================
+[11/36] no BN | adam | lr=0.001 | hidden=256
+============================================================
+Epoch   1/10 | Train loss: 0.2661  acc: 0.9138 | Val   loss: 0.1294  acc: 0.9631 ✓
+Epoch   2/10 | Train loss: 0.0784  acc: 0.9765 | Val   loss: 0.1100  acc: 0.9714 ✓
+Epoch   3/10 | Train loss: 0.0502  acc: 0.9842 | Val   loss: 0.0965  acc: 0.9718 ✓
+Epoch   4/10 | Train loss: 0.0264  acc: 0.9933 | Val   loss: 0.1091  acc: 0.9690
+Epoch   5/10 | Train loss: 0.0166  acc: 0.9961 | Val   loss: 0.0893  acc: 0.9749 ✓
+Epoch   6/10 | Train loss: 0.0090  acc: 0.9984 | Val   loss: 0.0750  acc: 0.9835 ✓
+Epoch   7/10 | Train loss: 0.0059  acc: 0.9990 | Val   loss: 0.0741  acc: 0.9820 ✓
+Epoch   8/10 | Train loss: 0.0033  acc: 0.9997 | Val   loss: 0.0713  acc: 0.9835 ✓
+Epoch   9/10 | Train loss: 0.0065  acc: 0.9986 | Val   loss: 0.0891  acc: 0.9776
+Epoch  10/10 | Train loss: 0.0355  acc: 0.9881 | Val   loss: 0.1112  acc: 0.9702
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.0713)
+  → test loss: 0.0556 | best val loss: 0.0713
+
+============================================================
+[12/36] BN | adam | lr=0.001 | hidden=256
+============================================================
+Epoch   1/10 | Train loss: 0.2569  acc: 0.9269 | Val   loss: 0.1260  acc: 0.9675 ✓
+Epoch   2/10 | Train loss: 0.0897  acc: 0.9795 | Val   loss: 0.0899  acc: 0.9804 ✓
+Epoch   3/10 | Train loss: 0.0531  acc: 0.9888 | Val   loss: 0.0799  acc: 0.9788 ✓
+Epoch   4/10 | Train loss: 0.0360  acc: 0.9934 | Val   loss: 0.0803  acc: 0.9745
+Epoch   5/10 | Train loss: 0.0248  acc: 0.9963 | Val   loss: 0.0705  acc: 0.9820 ✓
+Epoch   6/10 | Train loss: 0.0188  acc: 0.9979 | Val   loss: 0.0716  acc: 0.9812
+Epoch   7/10 | Train loss: 0.0146  acc: 0.9982 | Val   loss: 0.0734  acc: 0.9820
+Epoch   8/10 | Train loss: 0.0142  acc: 0.9981 | Val   loss: 0.0759  acc: 0.9796
+Epoch   9/10 | Train loss: 0.0121  acc: 0.9986 | Val   loss: 0.0677  acc: 0.9808 ✓
+Epoch  10/10 | Train loss: 0.0100  acc: 0.9989 | Val   loss: 0.0669  acc: 0.9831 ✓
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.0669)
+  → test loss: 0.0481 | best val loss: 0.0669
+
+============================================================
+[13/36] no BN | adam | lr=0.0001 | hidden=64
+============================================================
+Epoch   1/10 | Train loss: 1.1106  acc: 0.6456 | Val   loss: 0.5261  acc: 0.8490 ✓
+Epoch   2/10 | Train loss: 0.4041  acc: 0.8872 | Val   loss: 0.3367  acc: 0.9039 ✓
+Epoch   3/10 | Train loss: 0.2800  acc: 0.9222 | Val   loss: 0.2674  acc: 0.9212 ✓
+Epoch   4/10 | Train loss: 0.2213  acc: 0.9399 | Val   loss: 0.2293  acc: 0.9353 ✓
+Epoch   5/10 | Train loss: 0.1853  acc: 0.9504 | Val   loss: 0.2020  acc: 0.9459 ✓
+Epoch   6/10 | Train loss: 0.1607  acc: 0.9576 | Val   loss: 0.1849  acc: 0.9463 ✓
+Epoch   7/10 | Train loss: 0.1412  acc: 0.9630 | Val   loss: 0.1712  acc: 0.9549 ✓
+Epoch   8/10 | Train loss: 0.1260  acc: 0.9676 | Val   loss: 0.1620  acc: 0.9537 ✓
+Epoch   9/10 | Train loss: 0.1142  acc: 0.9718 | Val   loss: 0.1502  acc: 0.9569 ✓
+Epoch  10/10 | Train loss: 0.1039  acc: 0.9749 | Val   loss: 0.1443  acc: 0.9584 ✓
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.1443)
+  → test loss: 0.1296 | best val loss: 0.1443
+
+============================================================
+[14/36] BN | adam | lr=0.0001 | hidden=64
+============================================================
+Epoch   1/10 | Train loss: 1.2836  acc: 0.6271 | Val   loss: 0.7104  acc: 0.8298 ✓
+Epoch   2/10 | Train loss: 0.6040  acc: 0.8707 | Val   loss: 0.4951  acc: 0.8953 ✓
+Epoch   3/10 | Train loss: 0.4541  acc: 0.9059 | Val   loss: 0.3996  acc: 0.9161 ✓
+Epoch   4/10 | Train loss: 0.3741  acc: 0.9257 | Val   loss: 0.3392  acc: 0.9294 ✓
+Epoch   5/10 | Train loss: 0.3184  acc: 0.9360 | Val   loss: 0.2938  acc: 0.9357 ✓
+Epoch   6/10 | Train loss: 0.2799  acc: 0.9435 | Val   loss: 0.2644  acc: 0.9424 ✓
+Epoch   7/10 | Train loss: 0.2499  acc: 0.9499 | Val   loss: 0.2456  acc: 0.9467 ✓
+Epoch   8/10 | Train loss: 0.2276  acc: 0.9545 | Val   loss: 0.2234  acc: 0.9502 ✓
+Epoch   9/10 | Train loss: 0.2061  acc: 0.9597 | Val   loss: 0.2088  acc: 0.9561 ✓
+Epoch  10/10 | Train loss: 0.1887  acc: 0.9628 | Val   loss: 0.1963  acc: 0.9573 ✓
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.1963)
+  → test loss: 0.1841 | best val loss: 0.1963
+
+============================================================
+[15/36] no BN | adam | lr=0.0001 | hidden=128
+============================================================
+Epoch   1/10 | Train loss: 0.8565  acc: 0.7473 | Val   loss: 0.3689  acc: 0.8984 ✓
+Epoch   2/10 | Train loss: 0.2890  acc: 0.9226 | Val   loss: 0.2457  acc: 0.9341 ✓
+Epoch   3/10 | Train loss: 0.2020  acc: 0.9466 | Val   loss: 0.1979  acc: 0.9463 ✓
+Epoch   4/10 | Train loss: 0.1584  acc: 0.9593 | Val   loss: 0.1724  acc: 0.9533 ✓
+Epoch   5/10 | Train loss: 0.1304  acc: 0.9659 | Val   loss: 0.1539  acc: 0.9569 ✓
+Epoch   6/10 | Train loss: 0.1118  acc: 0.9713 | Val   loss: 0.1444  acc: 0.9584 ✓
+Epoch   7/10 | Train loss: 0.0977  acc: 0.9754 | Val   loss: 0.1324  acc: 0.9635 ✓
+Epoch   8/10 | Train loss: 0.0865  acc: 0.9802 | Val   loss: 0.1255  acc: 0.9647 ✓
+Epoch   9/10 | Train loss: 0.0765  acc: 0.9827 | Val   loss: 0.1205  acc: 0.9647 ✓
+Epoch  10/10 | Train loss: 0.0690  acc: 0.9848 | Val   loss: 0.1208  acc: 0.9682
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.1205)
+  → test loss: 0.1056 | best val loss: 0.1205
+
+============================================================
+[16/36] BN | adam | lr=0.0001 | hidden=128
+============================================================
+Epoch   1/10 | Train loss: 1.0658  acc: 0.6871 | Val   loss: 0.4958  acc: 0.8820 ✓
+Epoch   2/10 | Train loss: 0.4229  acc: 0.9051 | Val   loss: 0.3322  acc: 0.9263 ✓
+Epoch   3/10 | Train loss: 0.3036  acc: 0.9349 | Val   loss: 0.2625  acc: 0.9424 ✓
+Epoch   4/10 | Train loss: 0.2442  acc: 0.9494 | Val   loss: 0.2222  acc: 0.9529 ✓
+Epoch   5/10 | Train loss: 0.2069  acc: 0.9589 | Val   loss: 0.1979  acc: 0.9565 ✓
+Epoch   6/10 | Train loss: 0.1796  acc: 0.9635 | Val   loss: 0.1781  acc: 0.9624 ✓
+Epoch   7/10 | Train loss: 0.1593  acc: 0.9684 | Val   loss: 0.1632  acc: 0.9647 ✓
+Epoch   8/10 | Train loss: 0.1437  acc: 0.9716 | Val   loss: 0.1517  acc: 0.9678 ✓
+Epoch   9/10 | Train loss: 0.1289  acc: 0.9756 | Val   loss: 0.1435  acc: 0.9682 ✓
+Epoch  10/10 | Train loss: 0.1185  acc: 0.9783 | Val   loss: 0.1365  acc: 0.9694 ✓
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.1365)
+  → test loss: 0.1275 | best val loss: 0.1365
+
+============================================================
+[17/36] no BN | adam | lr=0.0001 | hidden=256
+============================================================
+Epoch   1/10 | Train loss: 0.6845  acc: 0.7992 | Val   loss: 0.3010  acc: 0.9192 ✓
+Epoch   2/10 | Train loss: 0.2300  acc: 0.9394 | Val   loss: 0.2154  acc: 0.9404 ✓
+Epoch   3/10 | Train loss: 0.1614  acc: 0.9579 | Val   loss: 0.1711  acc: 0.9573 ✓
+Epoch   4/10 | Train loss: 0.1261  acc: 0.9669 | Val   loss: 0.1515  acc: 0.9620 ✓
+Epoch   5/10 | Train loss: 0.1030  acc: 0.9761 | Val   loss: 0.1384  acc: 0.9643 ✓
+Epoch   6/10 | Train loss: 0.0861  acc: 0.9803 | Val   loss: 0.1251  acc: 0.9698 ✓
+Epoch   7/10 | Train loss: 0.0733  acc: 0.9837 | Val   loss: 0.1181  acc: 0.9694 ✓
+Epoch   8/10 | Train loss: 0.0634  acc: 0.9861 | Val   loss: 0.1104  acc: 0.9686 ✓
+Epoch   9/10 | Train loss: 0.0548  acc: 0.9898 | Val   loss: 0.1045  acc: 0.9725 ✓
+Epoch  10/10 | Train loss: 0.0479  acc: 0.9913 | Val   loss: 0.0992  acc: 0.9729 ✓
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.0992)
+  → test loss: 0.0838 | best val loss: 0.0992
+
+============================================================
+[18/36] BN | adam | lr=0.0001 | hidden=256
+============================================================
+Epoch   1/10 | Train loss: 0.8030  acc: 0.7755 | Val   loss: 0.3403  acc: 0.9235 ✓
+Epoch   2/10 | Train loss: 0.2927  acc: 0.9332 | Val   loss: 0.2288  acc: 0.9451 ✓
+Epoch   3/10 | Train loss: 0.2074  acc: 0.9540 | Val   loss: 0.1836  acc: 0.9584 ✓
+Epoch   4/10 | Train loss: 0.1651  acc: 0.9651 | Val   loss: 0.1587  acc: 0.9635 ✓
+Epoch   5/10 | Train loss: 0.1373  acc: 0.9727 | Val   loss: 0.1405  acc: 0.9671 ✓
+Epoch   6/10 | Train loss: 0.1160  acc: 0.9785 | Val   loss: 0.1276  acc: 0.9722 ✓
+Epoch   7/10 | Train loss: 0.1017  acc: 0.9813 | Val   loss: 0.1196  acc: 0.9722 ✓
+Epoch   8/10 | Train loss: 0.0905  acc: 0.9838 | Val   loss: 0.1103  acc: 0.9773 ✓
+Epoch   9/10 | Train loss: 0.0790  acc: 0.9875 | Val   loss: 0.1046  acc: 0.9753 ✓
+Epoch  10/10 | Train loss: 0.0710  acc: 0.9889 | Val   loss: 0.0980  acc: 0.9773 ✓
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.0980)
+  → test loss: 0.0913 | best val loss: 0.0980
+
+============================================================
+[19/36] no BN | momentum | lr=0.01 | hidden=64
+============================================================
+Epoch   1/10 | Train loss: 0.3554  acc: 0.8829 | Val   loss: 0.1938  acc: 0.9412 ✓
+Epoch   2/10 | Train loss: 0.1252  acc: 0.9622 | Val   loss: 0.1735  acc: 0.9475 ✓
+Epoch   3/10 | Train loss: 0.0919  acc: 0.9724 | Val   loss: 0.1306  acc: 0.9600 ✓
+Epoch   4/10 | Train loss: 0.0702  acc: 0.9796 | Val   loss: 0.1315  acc: 0.9616
+Epoch   5/10 | Train loss: 0.0555  acc: 0.9848 | Val   loss: 0.1073  acc: 0.9710 ✓
+Epoch   6/10 | Train loss: 0.0418  acc: 0.9896 | Val   loss: 0.1043  acc: 0.9706 ✓
+Epoch   7/10 | Train loss: 0.0345  acc: 0.9904 | Val   loss: 0.1091  acc: 0.9682
+Epoch   8/10 | Train loss: 0.0266  acc: 0.9944 | Val   loss: 0.1118  acc: 0.9694
+Epoch   9/10 | Train loss: 0.0218  acc: 0.9958 | Val   loss: 0.0992  acc: 0.9741 ✓
+Epoch  10/10 | Train loss: 0.0186  acc: 0.9972 | Val   loss: 0.0988  acc: 0.9753 ✓
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.0988)
+  → test loss: 0.0875 | best val loss: 0.0988
+
+============================================================
+[20/36] BN | momentum | lr=0.01 | hidden=64
+============================================================
+Epoch   1/10 | Train loss: 0.4533  acc: 0.8745 | Val   loss: 0.2094  acc: 0.9502 ✓
+Epoch   2/10 | Train loss: 0.1793  acc: 0.9547 | Val   loss: 0.1593  acc: 0.9529 ✓
+Epoch   3/10 | Train loss: 0.1301  acc: 0.9677 | Val   loss: 0.1345  acc: 0.9655 ✓
+Epoch   4/10 | Train loss: 0.1013  acc: 0.9763 | Val   loss: 0.1197  acc: 0.9675 ✓
+Epoch   5/10 | Train loss: 0.0854  acc: 0.9801 | Val   loss: 0.1112  acc: 0.9729 ✓
+Epoch   6/10 | Train loss: 0.0701  acc: 0.9839 | Val   loss: 0.1000  acc: 0.9753 ✓
+Epoch   7/10 | Train loss: 0.0586  acc: 0.9873 | Val   loss: 0.0949  acc: 0.9761 ✓
+Epoch   8/10 | Train loss: 0.0490  acc: 0.9909 | Val   loss: 0.0906  acc: 0.9773 ✓
+Epoch   9/10 | Train loss: 0.0446  acc: 0.9922 | Val   loss: 0.0861  acc: 0.9784 ✓
+Epoch  10/10 | Train loss: 0.0401  acc: 0.9935 | Val   loss: 0.0857  acc: 0.9761 ✓
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.0857)
+  → test loss: 0.0740 | best val loss: 0.0857
+
+============================================================
+[21/36] no BN | momentum | lr=0.01 | hidden=128
+============================================================
+Epoch   1/10 | Train loss: 0.3480  acc: 0.8892 | Val   loss: 0.1850  acc: 0.9392 ✓
+Epoch   2/10 | Train loss: 0.1153  acc: 0.9667 | Val   loss: 0.1286  acc: 0.9643 ✓
+Epoch   3/10 | Train loss: 0.0775  acc: 0.9774 | Val   loss: 0.1208  acc: 0.9651 ✓
+Epoch   4/10 | Train loss: 0.0522  acc: 0.9862 | Val   loss: 0.1100  acc: 0.9647 ✓
+Epoch   5/10 | Train loss: 0.0375  acc: 0.9913 | Val   loss: 0.0909  acc: 0.9749 ✓
+Epoch   6/10 | Train loss: 0.0282  acc: 0.9940 | Val   loss: 0.0891  acc: 0.9753 ✓
+Epoch   7/10 | Train loss: 0.0222  acc: 0.9964 | Val   loss: 0.0858  acc: 0.9761 ✓
+Epoch   8/10 | Train loss: 0.0159  acc: 0.9983 | Val   loss: 0.0861  acc: 0.9745
+Epoch   9/10 | Train loss: 0.0137  acc: 0.9985 | Val   loss: 0.0877  acc: 0.9757
+Epoch  10/10 | Train loss: 0.0102  acc: 0.9994 | Val   loss: 0.0790  acc: 0.9800 ✓
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.0790)
+  → test loss: 0.0689 | best val loss: 0.0790
+
+============================================================
+[22/36] BN | momentum | lr=0.01 | hidden=128
+============================================================
+Epoch   1/10 | Train loss: 0.3889  acc: 0.8889 | Val   loss: 0.1844  acc: 0.9506 ✓
+Epoch   2/10 | Train loss: 0.1478  acc: 0.9625 | Val   loss: 0.1371  acc: 0.9647 ✓
+Epoch   3/10 | Train loss: 0.1041  acc: 0.9744 | Val   loss: 0.1172  acc: 0.9675 ✓
+Epoch   4/10 | Train loss: 0.0798  acc: 0.9822 | Val   loss: 0.1031  acc: 0.9733 ✓
+Epoch   5/10 | Train loss: 0.0630  acc: 0.9876 | Val   loss: 0.0956  acc: 0.9745 ✓
+Epoch   6/10 | Train loss: 0.0513  acc: 0.9900 | Val   loss: 0.0885  acc: 0.9761 ✓
+Epoch   7/10 | Train loss: 0.0449  acc: 0.9925 | Val   loss: 0.0844  acc: 0.9776 ✓
+Epoch   8/10 | Train loss: 0.0356  acc: 0.9954 | Val   loss: 0.0800  acc: 0.9792 ✓
+Epoch   9/10 | Train loss: 0.0311  acc: 0.9952 | Val   loss: 0.0803  acc: 0.9788
+Epoch  10/10 | Train loss: 0.0262  acc: 0.9968 | Val   loss: 0.0761  acc: 0.9812 ✓
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.0761)
+  → test loss: 0.0625 | best val loss: 0.0761
+
+============================================================
+[23/36] no BN | momentum | lr=0.01 | hidden=256
+============================================================
+Epoch   1/10 | Train loss: 0.3263  acc: 0.8945 | Val   loss: 0.1704  acc: 0.9514 ✓
+Epoch   2/10 | Train loss: 0.0987  acc: 0.9729 | Val   loss: 0.1241  acc: 0.9675 ✓
+Epoch   3/10 | Train loss: 0.0670  acc: 0.9824 | Val   loss: 0.1147  acc: 0.9631 ✓
+Epoch   4/10 | Train loss: 0.0458  acc: 0.9887 | Val   loss: 0.0978  acc: 0.9745 ✓
+Epoch   5/10 | Train loss: 0.0311  acc: 0.9932 | Val   loss: 0.0899  acc: 0.9729 ✓
+Epoch   6/10 | Train loss: 0.0228  acc: 0.9966 | Val   loss: 0.0915  acc: 0.9753
+Epoch   7/10 | Train loss: 0.0170  acc: 0.9981 | Val   loss: 0.0852  acc: 0.9776 ✓
+Epoch   8/10 | Train loss: 0.0129  acc: 0.9991 | Val   loss: 0.0825  acc: 0.9780 ✓
+Epoch   9/10 | Train loss: 0.0101  acc: 0.9994 | Val   loss: 0.0820  acc: 0.9780 ✓
+Epoch  10/10 | Train loss: 0.0089  acc: 0.9997 | Val   loss: 0.0827  acc: 0.9784
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.0820)
+  → test loss: 0.0636 | best val loss: 0.0820
+
+============================================================
+[24/36] BN | momentum | lr=0.01 | hidden=256
+============================================================
+Epoch   1/10 | Train loss: 0.3466  acc: 0.8972 | Val   loss: 0.1573  acc: 0.9584 ✓
+Epoch   2/10 | Train loss: 0.1211  acc: 0.9708 | Val   loss: 0.1213  acc: 0.9690 ✓
+Epoch   3/10 | Train loss: 0.0839  acc: 0.9794 | Val   loss: 0.1006  acc: 0.9745 ✓
+Epoch   4/10 | Train loss: 0.0595  acc: 0.9878 | Val   loss: 0.0885  acc: 0.9788 ✓
+Epoch   5/10 | Train loss: 0.0458  acc: 0.9915 | Val   loss: 0.0842  acc: 0.9776 ✓
+Epoch   6/10 | Train loss: 0.0374  acc: 0.9944 | Val   loss: 0.0787  acc: 0.9784 ✓
+Epoch   7/10 | Train loss: 0.0293  acc: 0.9971 | Val   loss: 0.0744  acc: 0.9816 ✓
+Epoch   8/10 | Train loss: 0.0259  acc: 0.9980 | Val   loss: 0.0725  acc: 0.9804 ✓
+Epoch   9/10 | Train loss: 0.0215  acc: 0.9980 | Val   loss: 0.0746  acc: 0.9776
+Epoch  10/10 | Train loss: 0.0190  acc: 0.9984 | Val   loss: 0.0713  acc: 0.9816 ✓
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.0713)
+  → test loss: 0.0571 | best val loss: 0.0713
+
+============================================================
+[25/36] no BN | momentum | lr=0.001 | hidden=64
+============================================================
+Epoch   1/10 | Train loss: 0.8559  acc: 0.7438 | Val   loss: 0.3886  acc: 0.8855 ✓
+Epoch   2/10 | Train loss: 0.3067  acc: 0.9127 | Val   loss: 0.2760  acc: 0.9200 ✓
+Epoch   3/10 | Train loss: 0.2306  acc: 0.9370 | Val   loss: 0.2319  acc: 0.9361 ✓
+Epoch   4/10 | Train loss: 0.1922  acc: 0.9486 | Val   loss: 0.2103  acc: 0.9408 ✓
+Epoch   5/10 | Train loss: 0.1682  acc: 0.9568 | Val   loss: 0.1928  acc: 0.9467 ✓
+Epoch   6/10 | Train loss: 0.1506  acc: 0.9609 | Val   loss: 0.1804  acc: 0.9514 ✓
+Epoch   7/10 | Train loss: 0.1377  acc: 0.9642 | Val   loss: 0.1717  acc: 0.9514 ✓
+Epoch   8/10 | Train loss: 0.1265  acc: 0.9675 | Val   loss: 0.1653  acc: 0.9533 ✓
+Epoch   9/10 | Train loss: 0.1171  acc: 0.9702 | Val   loss: 0.1612  acc: 0.9557 ✓
+Epoch  10/10 | Train loss: 0.1101  acc: 0.9727 | Val   loss: 0.1552  acc: 0.9553 ✓
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.1552)
+  → test loss: 0.1373 | best val loss: 0.1552
+
+============================================================
+[26/36] BN | momentum | lr=0.001 | hidden=64
+============================================================
+Epoch   1/10 | Train loss: 1.0326  acc: 0.7240 | Val   loss: 0.5821  acc: 0.8769 ✓
+Epoch   2/10 | Train loss: 0.5104  acc: 0.8907 | Val   loss: 0.4167  acc: 0.9094 ✓
+Epoch   3/10 | Train loss: 0.3928  acc: 0.9156 | Val   loss: 0.3436  acc: 0.9235 ✓
+Epoch   4/10 | Train loss: 0.3270  acc: 0.9275 | Val   loss: 0.2999  acc: 0.9263 ✓
+Epoch   5/10 | Train loss: 0.2838  acc: 0.9367 | Val   loss: 0.2671  acc: 0.9322 ✓
+Epoch   6/10 | Train loss: 0.2536  acc: 0.9437 | Val   loss: 0.2474  acc: 0.9384 ✓
+Epoch   7/10 | Train loss: 0.2316  acc: 0.9496 | Val   loss: 0.2295  acc: 0.9416 ✓
+Epoch   8/10 | Train loss: 0.2108  acc: 0.9542 | Val   loss: 0.2157  acc: 0.9431 ✓
+Epoch   9/10 | Train loss: 0.1991  acc: 0.9556 | Val   loss: 0.2045  acc: 0.9471 ✓
+Epoch  10/10 | Train loss: 0.1856  acc: 0.9596 | Val   loss: 0.1939  acc: 0.9510 ✓
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.1939)
+  → test loss: 0.1751 | best val loss: 0.1939
+
+============================================================
+[27/36] no BN | momentum | lr=0.001 | hidden=128
+============================================================
+Epoch   1/10 | Train loss: 0.7642  acc: 0.7677 | Val   loss: 0.3638  acc: 0.8945 ✓
+Epoch   2/10 | Train loss: 0.2934  acc: 0.9182 | Val   loss: 0.2703  acc: 0.9224 ✓
+Epoch   3/10 | Train loss: 0.2239  acc: 0.9376 | Val   loss: 0.2317  acc: 0.9341 ✓
+Epoch   4/10 | Train loss: 0.1884  acc: 0.9486 | Val   loss: 0.2087  acc: 0.9388 ✓
+Epoch   5/10 | Train loss: 0.1646  acc: 0.9546 | Val   loss: 0.1942  acc: 0.9451 ✓
+Epoch   6/10 | Train loss: 0.1482  acc: 0.9609 | Val   loss: 0.1801  acc: 0.9478 ✓
+Epoch   7/10 | Train loss: 0.1348  acc: 0.9644 | Val   loss: 0.1709  acc: 0.9478 ✓
+Epoch   8/10 | Train loss: 0.1241  acc: 0.9672 | Val   loss: 0.1673  acc: 0.9514 ✓
+Epoch   9/10 | Train loss: 0.1160  acc: 0.9696 | Val   loss: 0.1582  acc: 0.9557 ✓
+Epoch  10/10 | Train loss: 0.1083  acc: 0.9722 | Val   loss: 0.1548  acc: 0.9569 ✓
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.1548)
+  → test loss: 0.1331 | best val loss: 0.1548
+
+============================================================
+[28/36] BN | momentum | lr=0.001 | hidden=128
+============================================================
+Epoch   1/10 | Train loss: 0.9291  acc: 0.7437 | Val   loss: 0.4653  acc: 0.8847 ✓
+Epoch   2/10 | Train loss: 0.4144  acc: 0.9015 | Val   loss: 0.3377  acc: 0.9176 ✓
+Epoch   3/10 | Train loss: 0.3168  acc: 0.9296 | Val   loss: 0.2838  acc: 0.9341 ✓
+Epoch   4/10 | Train loss: 0.2659  acc: 0.9413 | Val   loss: 0.2502  acc: 0.9400 ✓
+Epoch   5/10 | Train loss: 0.2335  acc: 0.9469 | Val   loss: 0.2268  acc: 0.9447 ✓
+Epoch   6/10 | Train loss: 0.2114  acc: 0.9518 | Val   loss: 0.2111  acc: 0.9502 ✓
+Epoch   7/10 | Train loss: 0.1915  acc: 0.9570 | Val   loss: 0.1989  acc: 0.9506 ✓
+Epoch   8/10 | Train loss: 0.1796  acc: 0.9600 | Val   loss: 0.1889  acc: 0.9537 ✓
+Epoch   9/10 | Train loss: 0.1649  acc: 0.9630 | Val   loss: 0.1801  acc: 0.9545 ✓
+Epoch  10/10 | Train loss: 0.1554  acc: 0.9658 | Val   loss: 0.1723  acc: 0.9553 ✓
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.1723)
+  → test loss: 0.1561 | best val loss: 0.1723
+
+============================================================
+[29/36] no BN | momentum | lr=0.001 | hidden=256
+============================================================
+Epoch   1/10 | Train loss: 0.7429  acc: 0.7805 | Val   loss: 0.3561  acc: 0.9020 ✓
+Epoch   2/10 | Train loss: 0.2843  acc: 0.9224 | Val   loss: 0.2627  acc: 0.9227 ✓
+Epoch   3/10 | Train loss: 0.2174  acc: 0.9430 | Val   loss: 0.2240  acc: 0.9384 ✓
+Epoch   4/10 | Train loss: 0.1824  acc: 0.9516 | Val   loss: 0.2010  acc: 0.9412 ✓
+Epoch   5/10 | Train loss: 0.1596  acc: 0.9582 | Val   loss: 0.1848  acc: 0.9471 ✓
+Epoch   6/10 | Train loss: 0.1431  acc: 0.9617 | Val   loss: 0.1754  acc: 0.9518 ✓
+Epoch   7/10 | Train loss: 0.1299  acc: 0.9670 | Val   loss: 0.1694  acc: 0.9525 ✓
+Epoch   8/10 | Train loss: 0.1194  acc: 0.9693 | Val   loss: 0.1580  acc: 0.9565 ✓
+Epoch   9/10 | Train loss: 0.1111  acc: 0.9721 | Val   loss: 0.1553  acc: 0.9541 ✓
+Epoch  10/10 | Train loss: 0.1028  acc: 0.9747 | Val   loss: 0.1477  acc: 0.9588 ✓
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.1477)
+  → test loss: 0.1297 | best val loss: 0.1477
+
+============================================================
+[30/36] BN | momentum | lr=0.001 | hidden=256
+============================================================
+Epoch   1/10 | Train loss: 0.8308  acc: 0.7615 | Val   loss: 0.4065  acc: 0.8894 ✓
+Epoch   2/10 | Train loss: 0.3564  acc: 0.9095 | Val   loss: 0.2961  acc: 0.9227 ✓
+Epoch   3/10 | Train loss: 0.2732  acc: 0.9341 | Val   loss: 0.2472  acc: 0.9325 ✓
+Epoch   4/10 | Train loss: 0.2306  acc: 0.9459 | Val   loss: 0.2159  acc: 0.9416 ✓
+Epoch   5/10 | Train loss: 0.2000  acc: 0.9522 | Val   loss: 0.1990  acc: 0.9506 ✓
+Epoch   6/10 | Train loss: 0.1790  acc: 0.9572 | Val   loss: 0.1831  acc: 0.9533 ✓
+Epoch   7/10 | Train loss: 0.1634  acc: 0.9622 | Val   loss: 0.1716  acc: 0.9545 ✓
+Epoch   8/10 | Train loss: 0.1490  acc: 0.9656 | Val   loss: 0.1616  acc: 0.9580 ✓
+Epoch   9/10 | Train loss: 0.1397  acc: 0.9680 | Val   loss: 0.1564  acc: 0.9608 ✓
+Epoch  10/10 | Train loss: 0.1285  acc: 0.9709 | Val   loss: 0.1491  acc: 0.9620 ✓
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.1491)
+  → test loss: 0.1345 | best val loss: 0.1491
+
+============================================================
+[31/36] no BN | momentum | lr=0.0001 | hidden=64
+============================================================
+Epoch   1/10 | Train loss: 2.1502  acc: 0.2945 | Val   loss: 1.5409  acc: 0.5012 ✓
+Epoch   2/10 | Train loss: 1.2542  acc: 0.6240 | Val   loss: 1.0277  acc: 0.7114 ✓
+Epoch   3/10 | Train loss: 0.8935  acc: 0.7534 | Val   loss: 0.7855  acc: 0.7796 ✓
+Epoch   4/10 | Train loss: 0.7118  acc: 0.8053 | Val   loss: 0.6543  acc: 0.8204 ✓
+Epoch   5/10 | Train loss: 0.6049  acc: 0.8334 | Val   loss: 0.5700  acc: 0.8459 ✓
+Epoch   6/10 | Train loss: 0.5337  acc: 0.8549 | Val   loss: 0.5115  acc: 0.8584 ✓
+Epoch   7/10 | Train loss: 0.4827  acc: 0.8694 | Val   loss: 0.4684  acc: 0.8718 ✓
+Epoch   8/10 | Train loss: 0.4436  acc: 0.8806 | Val   loss: 0.4344  acc: 0.8824 ✓
+Epoch   9/10 | Train loss: 0.4124  acc: 0.8880 | Val   loss: 0.4084  acc: 0.8882 ✓
+Epoch  10/10 | Train loss: 0.3869  acc: 0.8945 | Val   loss: 0.3853  acc: 0.8961 ✓
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.3853)
+  → test loss: 0.3736 | best val loss: 0.3853
+
+============================================================
+[32/36] BN | momentum | lr=0.0001 | hidden=64
+============================================================
+Epoch   1/10 | Train loss: 2.3689  acc: 0.2210 | Val   loss: 1.7738  acc: 0.4075 ✓
+Epoch   2/10 | Train loss: 1.5195  acc: 0.5342 | Val   loss: 1.2359  acc: 0.6498 ✓
+Epoch   3/10 | Train loss: 1.1628  acc: 0.6817 | Val   loss: 1.0063  acc: 0.7424 ✓
+Epoch   4/10 | Train loss: 0.9814  acc: 0.7491 | Val   loss: 0.8688  acc: 0.7914 ✓
+Epoch   5/10 | Train loss: 0.8617  acc: 0.7971 | Val   loss: 0.7855  acc: 0.8176 ✓
+Epoch   6/10 | Train loss: 0.7810  acc: 0.8199 | Val   loss: 0.7159  acc: 0.8361 ✓
+Epoch   7/10 | Train loss: 0.7194  acc: 0.8394 | Val   loss: 0.6640  acc: 0.8475 ✓
+Epoch   8/10 | Train loss: 0.6737  acc: 0.8506 | Val   loss: 0.6205  acc: 0.8624 ✓
+Epoch   9/10 | Train loss: 0.6349  acc: 0.8596 | Val   loss: 0.5893  acc: 0.8682 ✓
+Epoch  10/10 | Train loss: 0.6002  acc: 0.8680 | Val   loss: 0.5564  acc: 0.8784 ✓
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.5564)
+  → test loss: 0.5493 | best val loss: 0.5564
+
+============================================================
+[33/36] no BN | momentum | lr=0.0001 | hidden=128
+============================================================
+Epoch   1/10 | Train loss: 1.9164  acc: 0.3455 | Val   loss: 1.3248  acc: 0.5953 ✓
+Epoch   2/10 | Train loss: 1.0800  acc: 0.6884 | Val   loss: 0.8977  acc: 0.7482 ✓
+Epoch   3/10 | Train loss: 0.7928  acc: 0.7798 | Val   loss: 0.7078  acc: 0.8039 ✓
+Epoch   4/10 | Train loss: 0.6485  acc: 0.8194 | Val   loss: 0.6011  acc: 0.8341 ✓
+Epoch   5/10 | Train loss: 0.5603  acc: 0.8433 | Val   loss: 0.5301  acc: 0.8502 ✓
+Epoch   6/10 | Train loss: 0.4998  acc: 0.8598 | Val   loss: 0.4810  acc: 0.8635 ✓
+Epoch   7/10 | Train loss: 0.4555  acc: 0.8726 | Val   loss: 0.4439  acc: 0.8765 ✓
+Epoch   8/10 | Train loss: 0.4211  acc: 0.8824 | Val   loss: 0.4150  acc: 0.8816 ✓
+Epoch   9/10 | Train loss: 0.3936  acc: 0.8908 | Val   loss: 0.3908  acc: 0.8875 ✓
+Epoch  10/10 | Train loss: 0.3706  acc: 0.8981 | Val   loss: 0.3730  acc: 0.8925 ✓
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.3730)
+  → test loss: 0.3680 | best val loss: 0.3730
+
+============================================================
+[34/36] BN | momentum | lr=0.0001 | hidden=128
+============================================================
+Epoch   1/10 | Train loss: 2.0540  acc: 0.3026 | Val   loss: 1.5438  acc: 0.5188 ✓
+Epoch   2/10 | Train loss: 1.3055  acc: 0.6233 | Val   loss: 1.1014  acc: 0.7024 ✓
+Epoch   3/10 | Train loss: 1.0069  acc: 0.7362 | Val   loss: 0.8867  acc: 0.7749 ✓
+Epoch   4/10 | Train loss: 0.8478  acc: 0.7870 | Val   loss: 0.7713  acc: 0.8039 ✓
+Epoch   5/10 | Train loss: 0.7447  acc: 0.8185 | Val   loss: 0.6922  acc: 0.8247 ✓
+Epoch   6/10 | Train loss: 0.6734  acc: 0.8357 | Val   loss: 0.6292  acc: 0.8427 ✓
+Epoch   7/10 | Train loss: 0.6229  acc: 0.8490 | Val   loss: 0.5875  acc: 0.8518 ✓
+Epoch   8/10 | Train loss: 0.5810  acc: 0.8593 | Val   loss: 0.5537  acc: 0.8616 ✓
+Epoch   9/10 | Train loss: 0.5464  acc: 0.8670 | Val   loss: 0.5217  acc: 0.8682 ✓
+Epoch  10/10 | Train loss: 0.5179  acc: 0.8765 | Val   loss: 0.4938  acc: 0.8761 ✓
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.4938)
+  → test loss: 0.4768 | best val loss: 0.4938
+
+============================================================
+[35/36] no BN | momentum | lr=0.0001 | hidden=256
+============================================================
+Epoch   1/10 | Train loss: 1.8324  acc: 0.4008 | Val   loss: 1.2160  acc: 0.6498 ✓
+Epoch   2/10 | Train loss: 1.0035  acc: 0.7131 | Val   loss: 0.8203  acc: 0.7725 ✓
+Epoch   3/10 | Train loss: 0.7407  acc: 0.7923 | Val   loss: 0.6537  acc: 0.8165 ✓
+Epoch   4/10 | Train loss: 0.6114  acc: 0.8284 | Val   loss: 0.5588  acc: 0.8416 ✓
+Epoch   5/10 | Train loss: 0.5318  acc: 0.8502 | Val   loss: 0.4970  acc: 0.8600 ✓
+Epoch   6/10 | Train loss: 0.4769  acc: 0.8657 | Val   loss: 0.4515  acc: 0.8753 ✓
+Epoch   7/10 | Train loss: 0.4356  acc: 0.8774 | Val   loss: 0.4188  acc: 0.8816 ✓
+Epoch   8/10 | Train loss: 0.4035  acc: 0.8859 | Val   loss: 0.3920  acc: 0.8886 ✓
+Epoch   9/10 | Train loss: 0.3776  acc: 0.8945 | Val   loss: 0.3693  acc: 0.8949 ✓
+Epoch  10/10 | Train loss: 0.3558  acc: 0.9017 | Val   loss: 0.3520  acc: 0.9020 ✓
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.3520)
+  → test loss: 0.3482 | best val loss: 0.3520
+
+============================================================
+[36/36] BN | momentum | lr=0.0001 | hidden=256
+============================================================
+Epoch   1/10 | Train loss: 1.9067  acc: 0.3603 | Val   loss: 1.3695  acc: 0.5882 ✓
+Epoch   2/10 | Train loss: 1.1579  acc: 0.6839 | Val   loss: 0.9475  acc: 0.7639 ✓
+Epoch   3/10 | Train loss: 0.8728  acc: 0.7902 | Val   loss: 0.7646  acc: 0.8173 ✓
+Epoch   4/10 | Train loss: 0.7296  acc: 0.8277 | Val   loss: 0.6586  acc: 0.8435 ✓
+Epoch   5/10 | Train loss: 0.6402  acc: 0.8480 | Val   loss: 0.5860  acc: 0.8616 ✓
+Epoch   6/10 | Train loss: 0.5794  acc: 0.8634 | Val   loss: 0.5364  acc: 0.8663 ✓
+Epoch   7/10 | Train loss: 0.5335  acc: 0.8737 | Val   loss: 0.4978  acc: 0.8784 ✓
+Epoch   8/10 | Train loss: 0.4975  acc: 0.8821 | Val   loss: 0.4658  acc: 0.8871 ✓
+Epoch   9/10 | Train loss: 0.4699  acc: 0.8882 | Val   loss: 0.4419  acc: 0.8906 ✓
+Epoch  10/10 | Train loss: 0.4468  acc: 0.8940 | Val   loss: 0.4219  acc: 0.8961 ✓
+  [Grad check] Gradients OK
+
+Restored best weights (val loss = 0.4219)
+  → test loss: 0.4070 | best val loss: 0.4219
+
+==============================================================
+
+Experiment                                 Val Loss  Test Loss
+--------------------------------------------------------------
+BN | adam | lr=0.001 | hidden=128            0.0641     0.0579
+BN | adam | lr=0.001 | hidden=256            0.0669     0.0481
+no BN | adam | lr=0.001 | hidden=256         0.0713     0.0556
+BN | momentum | lr=0.01 | hidden=256         0.0713     0.0571
+BN | momentum | lr=0.01 | hidden=128         0.0761     0.0625
+BN | adam | lr=0.01 | hidden=256             0.0768     0.0701
+no BN | adam | lr=0.001 | hidden=64          0.0784     0.0699
+no BN | adam | lr=0.001 | hidden=128         0.0786     0.0640
+no BN | momentum | lr=0.01 | hidden=128      0.0790     0.0689
+BN | adam | lr=0.001 | hidden=64             0.0797     0.0725
+no BN | momentum | lr=0.01 | hidden=256      0.0820     0.0636
+BN | momentum | lr=0.01 | hidden=64          0.0857     0.0740
+BN | adam | lr=0.01 | hidden=64              0.0881     0.0731
+BN | adam | lr=0.01 | hidden=128             0.0903     0.0744
+BN | adam | lr=0.0001 | hidden=256           0.0980     0.0913
+no BN | momentum | lr=0.01 | hidden=64       0.0988     0.0875
+no BN | adam | lr=0.0001 | hidden=256        0.0992     0.0838
+no BN | adam | lr=0.0001 | hidden=128        0.1205     0.1056
+BN | adam | lr=0.0001 | hidden=128           0.1365     0.1275
+no BN | adam | lr=0.01 | hidden=128          0.1381     0.1269
+no BN | adam | lr=0.0001 | hidden=64         0.1443     0.1296
+no BN | momentum | lr=0.001 | hidden=256     0.1477     0.1297
+BN | momentum | lr=0.001 | hidden=256        0.1491     0.1345
+no BN | momentum | lr=0.001 | hidden=128     0.1548     0.1331
+no BN | momentum | lr=0.001 | hidden=64      0.1552     0.1373
+no BN | adam | lr=0.01 | hidden=256          0.1624     0.1368
+BN | momentum | lr=0.001 | hidden=128        0.1723     0.1561
+BN | momentum | lr=0.001 | hidden=64         0.1939     0.1751
+BN | adam | lr=0.0001 | hidden=64            0.1963     0.1841
+no BN | adam | lr=0.01 | hidden=64           0.2053     0.1857
+no BN | momentum | lr=0.0001 | hidden=256     0.3520     0.3482
+no BN | momentum | lr=0.0001 | hidden=128     0.3730     0.3680
+no BN | momentum | lr=0.0001 | hidden=64     0.3853     0.3736
+BN | momentum | lr=0.0001 | hidden=256       0.4219     0.4070
+BN | momentum | lr=0.0001 | hidden=128       0.4938     0.4768
+BN | momentum | lr=0.0001 | hidden=64        0.5564     0.5493
